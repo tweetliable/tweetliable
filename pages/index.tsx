@@ -6,7 +6,7 @@ import { Footer } from "../components/Footer"
 
 const IndexPage = () => (
   <React.Fragment>
-    <div className="pb-20"> <Header /> </div>
+    <Header /> 
     <Tweet />
     <Pagination />
     <Footer />
